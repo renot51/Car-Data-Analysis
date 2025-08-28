@@ -1,25 +1,31 @@
-# Car-Data-Analysis Project
-Exploratory data analysis of vehicle performance and pricing with SQL, Python, and Tableau.
-
+# Car Data Analysis Project
 
 ## Overview
-This project explores vehicle performance, efficiency, and pricing to identify trends and trade-offs.  
-The focus was on analyzing structured datasets, creating business-ready tables, and generating actionable insights.
+This project performs **Exploratory Data Analysis (EDA)** on a vehicle dataset to understand the relationship between **performance, pricing, and efficiency**.  
+The analysis focuses on uncovering correlations between drivetrain, transmission, engine specifications, horsepower, and pricing — with additional attention to EV efficiency and trade-offs between cost and performance.
 
-## Key Features
-- Conducted EDA on vehicle performance and pricing datasets.  
-- Used SQL and Python (Pandas, Matplotlib, Seaborn) for wrangling, visualization, and statistical analysis.  
-- Built business-ready tables for comparative analysis.  
-- Delivered insights on:
-  - EV efficiency  
-  - Horsepower vs. retail price  
-  - Trade-offs between performance and fuel economy  
+## Key Objectives
+- Clean and prepare raw vehicle data for analysis.
+- Explore distributions and trends of key variables (MSRP, horsepower, MPG, drivetrain, etc.).
+- Identify **correlations** between specifications and pricing.
+- Evaluate **trade-offs** between performance and fuel economy.
+- Visualize results clearly for stakeholder decision-making.
+
+## Dataset
+- Source: Vehicle dataset provided during Masterschool training.  
+- Features include: MSRP (price), engine specs, cylinders, driven wheels, fuel efficiency, size class, etc.  
+- Data cleaning steps included handling missing values, ensuring correct data types, and feature selection.
+
+## Methodology
+- **Data Wrangling**: Pandas for cleaning and transformation.  
+- **Visualization**: Matplotlib & Seaborn for histograms, boxplots, correlation heatmaps, and scatter plots.  
+- **Statistical Analysis**: Correlation analysis of pricing vs. performance variables.  
+- **Insights**: Focus on EV fuel efficiency, horsepower vs. MSRP, drivetrain/size impact.
 
 ## Tools & Technologies
-- SQL (PostgreSQL)  
-- Python (Pandas, NumPy, Matplotlib, Seaborn)  
-- Tableau (optional visualizations)  
+- Python: `pandas`, `numpy`, `matplotlib`, `seaborn`  
+- Jupyter Notebook / Google Colab  
+- SQL (supporting queries for structured analysis)  
+- Tableau (for optional dashboards)
 
-## Links
-- [Colab Notebook](INSERT LINK)  
-- [Tableau Dashboard](INSERT LINK if available)  
+## Repo Structure
